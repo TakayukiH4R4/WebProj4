@@ -5,6 +5,7 @@
 <html>
 <head>
 <meta charset=UTF-8>
+<link rel="stylesheet"  type="text/css"  href="./css/style.css">
 <title>HelloStruts</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
 
 			<s:iterator value="helloStrutsDTOList">
 			<tr>
-				<td><s:property value = "userid"/></td>
+				<td><s:property value = "userId"/></td>
 				<td><s:property value = "userName"/></td>
 				<td><s:property value = "password"/></td>
 				<td><s:property value = "result"/></td>
