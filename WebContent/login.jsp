@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<s:property value = "LoginList.get(0).username"/>さん、ようこそ！
+<s:property value = "LoginDTOList.get(0).username"/>さん、ようこそ！
 
 <br>
 <table>
@@ -20,7 +20,7 @@
 			<th>PASSWORD</th>
 		</tr>
 
-		<s:iterator value = "loginList">
+		<s:iterator value = "loginDTOList">
 			<tr>
 				<td><s:property value = "username"/></td>
 				<td><s:property value = "password"/></td>
