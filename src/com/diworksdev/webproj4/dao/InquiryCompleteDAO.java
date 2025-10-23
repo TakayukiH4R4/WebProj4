@@ -10,7 +10,7 @@ import java.util.List;
 import com.diworksdev.webproj4.dto.InquiryDTO;
 import com.diworksdev.webproj4.util.DBConnector;
 
-public class InquiryDAO {
+public class InquiryCompleteDAO {
 	List<InquiryDTO> inquiryDTOList =new ArrayList<InquiryDTO>();
 
 	public List<InquiryDTO> select() {
